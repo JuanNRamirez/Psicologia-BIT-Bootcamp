@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Psicología</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fb99637356.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <a class="navbar-brand navbar-text">La Psicología</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link navbar-text" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text" href="enfermedades.html">Enfermedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-text" href="#target">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="customItem carousel-item active">
+                <img src="img/imagen1.jpg" class="img-fluid" alt="Psicología 1">
+              </div>
+              <div class="customItem carousel-item">
+                <img src="img/imagen2.jpg" class="img-responsive" alt="Psicología 2">
+              </div>
+              <div class="customItem carousel-item">
+                <img src="img/imagen3.jpg" class="img-responsive" alt="Psicología 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+
+    <section class="description">
+      <h1 class="text-center">La Psicología</h1>
+      <p class="font-italic text-center">"Estudio o tratado del alma"<p>
+      <p class="text-justify">La Psicología es una ciencia, profesión y disciplina académica que se encarga del estudio y el análisis de la conducta y los procesos mentales de los seres humanos.
+        Para alcanzar dicho fin, la Psicología acude a métodos empíricos de carácter cuantitativo y cualitativo que se han desarrollado a través del tiempo. Usualmente, los psicólogos se emplean
+        en la evaluación y tratamiento de las psicopatologías. Sin embargo, en las últimas décadas los psicólogos también están consiguiendo empleo en los departamentos de recursos humanos de
+        diversas organizaciones. La Psicología posee múltiples enfoques debido a su amplia naturaleza. Entre ellos se encuentran:</p>
+    </section>
+
+    <section class="cardContainer">
+      <div class="card-group">
+        <div class="card c1 not-learned" style="width: 18rem;">
+          <div class="card-body d-flex flex-column">
+            <i class="fa fa-smile-o fa-5x genIcon" aria-hidden="true"></i>
+            <h5 class="card-title">Las Emociones</h5>
+            <p class="card-text">Desde la psicología representan las reacciones psicofisiológicas debido a modos de adaptación a ciertos estímulos del individuo cuando percibe un objeto, persona, lugar o suceso de relevancia.</p>
+            <button type="button" class="btn btn-primary b1 mt-auto" onclick="clickHandler(0)">No Aprendido</button>
+          </div>
+        </div>
+  
+        <div class="card c2 not-learned" style="width: 18rem;">
+          <div class="card-body d-flex flex-column">
+            <i class="fa fa-brain fa-5x genIcon" aria-hidden="true"></i>
+            <h5 class="card-title">La Inteligencia</h5>
+            <p class="card-text">En la psicología analiza la capacidad de lógica, comprensión, autoconciencia, aprendizaje, conocimiento emocional, razonamiento, creatividad y pensamiento crítico de un individuo.</p>
+            <button type="button" class="btn btn-primary b2 mt-auto" onclick="clickHandler(1)">No Aprendido</button>
+          </div>
+        </div>
+  
+        <div class="card c3 not-learned" style="width: 18rem;">
+          <div class="card-body d-flex flex-column">
+            <i class="fa fa-people-arrows fa-5x genIcon" aria-hidden="true"></i>
+            <h5 class="card-title">Las Relaciones Personales</h5>
+            <p class="card-text">En la psicología se define como el estudio de las asociaciones de dos o más personas que se pueden basar en emociones y sentimientos, intereses por los negocios o actividades sociales e interacciones familiares.</p>
+            <button type="button" class="btn btn-primary b3 mt-auto" onclick="clickHandler(2)">No Aprendido</button>
+          </div>
+        </div>
+  
+        <div class="card c4 not-learned" style="width: 18rem;">
+          <div class="card-body d-flex flex-column">
+            <i class="fa fa-eye fa-5x genIcon" aria-hidden="true"></i>
+            <h5 class="card-title">La Percepción</h5>
+            <p class="card-text">Desde la psicología estudia la forma en la que el cerebro detecta las sensaciones que recibe a través de los sentidos para formar una impresión consciente de la realidad física de su entorno. Es bastante subjetivo de acuerdo al individuo.</p>
+            <button type="button" class="btn btn-primary b4 mt-auto" onclick="clickHandler(3)">No Aprendido</button>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="descriptionCurrents">
+      <p class="text-justify">Cada uno de estos ambitos ha sido analizado desde diversas perspectivas puesto que han existido varias corrientes y escuelas psicológicas a través de la historia.
+        Entre ellas se encuentran el asociacionismo, la psicología experimental, el funcionalismo, el estructuralismo, el psicoanálisis, el conductismo, la psicología humanista, la psicobiología,
+        entre otros. A continuación se presenta un video acerca de la corriente psicoanalista:
+      </p>
+      <div class="embed-responsive embed-responsive-16by9 sizer">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/wlQ9DmsNzz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>  
+      <p class="text-justify">Sigmund Freud, entonces, fue realmente importante para la psicología y para el desarrollo de esta corriente. Cada rama tuvo entonces un contribuidor y creador principal.</p>
+    </section>
+
+    <footer>
+      <h2>Contáctanos</h2>
+      <form>
+        <div class="form-group" id="target">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small style="color: white !important" id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie.</small>
+        </div>
+        <button id="btSend" type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      <p class="text-center">©2020 Juan Nicolas Ramirez Julio</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a class="gen" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+          </div>
+          <div class="col-sm">
+            <a class="gen" target="_blank" href="https://www.instagram.com/juanramirez_81/"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+          <div class="col-sm">
+            <a class="gen" target="_blank" href="https://twitter.com/explore"><i class="fa fa-twitter fa-2x"></i></a>
+          </div>
+        </div>
+      </div> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <script src="js/script.js" type="text/javascript"></script>  
+</body>
+</html>

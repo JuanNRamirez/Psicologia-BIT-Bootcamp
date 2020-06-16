@@ -1,0 +1,75 @@
+.purple .nav-wrapper .editNav {
+    margin-left: 12rem;
+}
+
+.purple .nav-wrapper .editNav li a {
+    font-size: 1.1rem;
+}
+
+.purple .nav-wrapper .editLogo {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+.description h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description .flow-text {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.cardContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.cardContainer .row .col .card .card-image .activator {
+    height: 375px;
+    object-fit: cover;
+}
+
+.finalDetails .flow-text {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+footer form {
+    margin: 0 auto;
+    padding-top: 0.2rem;
+    color: black;
+    width: 40%;
+}
+
+footer form #email {
+    padding-top: 1rem;
+}
+
+.page-footer .container .custom {
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.page-footer .container .row .center-align {
+    margin-top: 0.5rem;
+}
+
+footer .container .gen {
+    color: white;
+    margin-left: 2rem;
+}
+
+
+
